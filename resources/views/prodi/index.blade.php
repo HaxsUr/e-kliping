@@ -86,7 +86,18 @@
             }
         ]
     });
-
+    //tambah data
+    $('#btnModalProdi').click(function(){
+        $('#prodiModal').modal();
+        $('#prodiModal').modal('toggle');
+        $('#btnprodi').text('Simpan');
+    });
+    $('#closeprodi1').click(function(){
+        $('#prodiModal').modal('hide');
+    });
+    $('#closeprodi2').click(function(){
+        $('#prodiModal').modal('hide');
+    });
 
 });
 </script>
